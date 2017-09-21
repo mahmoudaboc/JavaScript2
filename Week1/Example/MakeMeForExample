@@ -1,0 +1,17 @@
+Make a HTML todo list. 
+
+```
+const myList = 'Make homework. Brush teeth. Buy a pony. Call my mother. Make a todo list.'
+```
+
+Result should look like this in HTML:
+
+• Make homework. 
+• Brush teeth. 
+• Buy a pony. 
+• Call my mother. 
+• Make a todo list.
+
+Rules:
+1) You may NOT split the string manually (you must use a javascript operator to do this).
+2) You may NOT write any text directly into the HTML
