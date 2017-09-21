@@ -2852,7 +2852,7 @@ function new1 () {
             
             let forkli = document.createElement("li");
             ul.appendChild(forkli);
-            forkli.innerHTML = forkli.innerHTML +"Fork:   "+ arr[i].fork;
+            forkli.innerHTML = forkli.innerHTML +"Fork:   "+ arr[i].forks;
             
             let updated_atli = document.createElement("li");
             ul.appendChild(updated_atli);
