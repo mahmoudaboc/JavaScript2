@@ -1,0 +1,52 @@
+ul {
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    width: 40%;
+}
+
+li:hover {
+    background-color: bisque;
+}
+.name {
+    background-color: #4E64BE;
+    float: left;
+    width: 40%;
+    height: 73px;
+    text-align: center;
+    padding-top: 45px;
+    margin:10px;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.name:hover {
+    background-color: #35478E;
+    border-bottom: 2px solid #3C3C3C;
+    border-right: 2px solid #3C3C3C;
+    box-shadow: 5px 5px 2px grey;
+    text-shadow: 2px 1px 1px black;
+    color: white;
+    
+    
+}
+
+
+.avatar {
+    width: 20%;
+    height: 40%;
+    right: 5%;
+    bottom: 30%;
+    position: fixed;
+    transition: border 0.5s;
+}
+
+.avatar:hover {
+    border: 8px solid #3C3C3C;
+}
+
