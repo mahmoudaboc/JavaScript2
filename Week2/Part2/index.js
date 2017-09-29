@@ -1,6 +1,6 @@
 //to change temperature from Fahrenheit to Celsius ,add &units=metric to the link
 
-let api ='http://api.openweathermap.org/data/2.5/weather?q=';
+let api ='https://api.openweathermap.org/data/2.5/weather?q=';
 let city = "Amsterdam";
 let appId = '&APPID=1f15a358e3d1653781dd78c383b34d0e&units=metric';
 
