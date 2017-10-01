@@ -1,6 +1,6 @@
 function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
     let arr = [];
-    for (let i = startIndex; i < stopIndex; i++){
+    for (let i = startIndex; i <= stopIndex; i++){
        arr.push(i);
     }
     console.log(arr);
